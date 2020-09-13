@@ -1,4 +1,18 @@
-# This is a simple Linear Regression with R-squared Calculations and Variance(Optional).
+# Project 2 - Simple Linear Regression 
+Linear regression is to model the relationship between two continous variable , given that significant correlation exists between the two variables.
+## How does it work ?
+![1_LEmBCYAttxS6uI6rEyPLMQ](https://user-images.githubusercontent.com/41041795/93014539-849ae300-f5cf-11ea-80e0-517c24edaaf3.png)
+- The general idea of Linear Regression is to fit the line that could best fit the data when the data is visualized using scatter plot.
+## How to find the Best fit line ?
+- The line that best fits the data is found by,  
+             		
+		y = m*x + c 
+- **m** is the slope of the line , **c** is the y intercept (where does the line interacts with the y- axis) 
+- **x** is the explanatory variable (independent variable) , **y** is the response variable (dependent variable) 
+### Finding m and c :
+![Capture](https://user-images.githubusercontent.com/41041795/93015022-6f27b800-f5d3-11ea-8939-d0bc6a0a84b7.PNG) 
+	     
+		
 - Created random values for y using random.rand depending on whether or not we want the data points to be correlated.
 
 - Calculated m and b ,where m is the slope of the line which tells you how the line formed by the co-ordinates (x,y) in the graph [M-POSTIVE -line is increasing from left to right M-NEGATIVE - line is decreasing from right to left] ,X is basically range of y  which is from 0 to 39 ,
